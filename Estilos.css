@@ -1,0 +1,34 @@
+.calculadora{
+    width: 200px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    background-color:rgb(204, 146, 211);
+    border: 2px solid rgb(30, 29, 32);
+    border-radius: 20px 4px;
+
+}
+body{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-calculadora-lapices_188544-6127.jpg);
+    font-family: fantasy;
+    font-size: 18px;
+}
+.boton{
+    display: inline-block;
+    padding: 2px 5px;
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+.boton:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7,
+    0 0 80px  #a945c7;
+}
+.botondiv{
+    background: #633172;
+    width: 120px;
+    height: 25px;
+    margin: auto;
+}
